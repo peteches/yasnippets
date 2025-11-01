@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: sptask
+# key: sptask
+# --
+${1:`(yas-choose-value
+      '("PingHealth"
+        "PongHealth"
+        "TestConfig"
+        "RequestConfig"
+        "AddedFileNotification"
+        "DoneWritingFileNotification"
+        "ChangedFileNotification"
+        "RemovedFileNotification"
+        "CreateVideoProxyTask"
+        "CreateVideoProxyTaskProgressNotification"
+        "CreateVideoProxyTaskCompleteNotification"
+        "CreateLiveStreamProxyTask"
+        "CreateLiveStreamProxyTaskProgressNotification"
+        "CreateLiveStreamProxyTaskCompleteNotification"
+        "UploadToCloudTask"
+        "UploadToCloudTaskProgressNotification"
+        "UploadToCloudTaskCompleteNotification"
+        "DownloadFromCloudTask"
+        "DownloadFromCloudTaskProgressNotification"
+        "DownloadFromCloudTaskCompleteNotification"
+        "ClipLiveStreamTask"
+        "ClipLiveStreamTaskProgressNotification"
+        "ClipLiveStreamTaskCompleteNotification"
+        "ClipVideoTask"
+        "ClipVideoTaskProgressNotification"
+        "ClipVideoTaskCompleteNotification"
+        "DeliverToUserTask"
+        "DeliverToUserTaskProgressNotification"
+        "DeliverToUserTaskCompleteNotification"))`}$0
