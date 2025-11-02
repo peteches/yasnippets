@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: funcObj
+# key: func
+# --
+/* $4 ${7:ToDo: Add documentation}
+*/
+func ${1:(${2:x} ${3:Type})} ${4:Name}(${5:param string}) ${6:error} {
+     $0
+}
