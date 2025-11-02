@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Struct Field
+# key: field
+# --
+// ${1:FieldName} ${2}
+${1} ${3:string} ${4:\`${5:$$(yas-choose-value '("json" "yaml" "gorm" "env" "db" "xml"))}:\"${6:$$(string-inflection-underscore-function (yas-field-value 1))}\"\`}
+$0
