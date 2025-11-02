@@ -1,0 +1,7 @@
+* Peteches Snippets
+This is my collection of yasnippets. They are meant to be used in conjunction with custom elisp in my [[https://github.com/peteches/guix/tree/main/peteches/home-services/emacs/configs][emacs configs]].
+
+I will try to keep this table up to date with links to relevant files.
+
+| snippet-mode | required functions |
+| go-ts-mode   | [[https://github.com/peteches/guix/blob/main/peteches/home-services/emacs/configs/lisp/peteches-go-ts.el][peteches-go-ts.el]]  |
